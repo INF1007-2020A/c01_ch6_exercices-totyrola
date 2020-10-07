@@ -7,6 +7,7 @@ def order(values: list = None) -> bool:
         values = [input("Veuillez entrer une valeure") for _ in range(10)]   
         
     return values == sorted(values)
+    
 
 
 def anagrams(words: list = None) -> bool:
