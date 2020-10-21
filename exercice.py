@@ -12,7 +12,7 @@ def order(values: list = None) -> bool:
 
 def anagrams(words: list = None) -> bool:
     if words is None:
-       anagram = [input("veuillez entrer deux mots:") for i 
+       anagram = [input("veuillez entrer deux mots:") for i _ in range(2)
 
 
 
