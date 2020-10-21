@@ -20,7 +20,7 @@ def anagrams(words: list = None) -> bool:
 
 
 def contains_doubles(items: list) -> bool:
-    set(items)
+    lst_set(items)
     return 
 
 
