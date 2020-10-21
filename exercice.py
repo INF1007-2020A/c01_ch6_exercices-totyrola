@@ -4,7 +4,7 @@
 
 def order(values: list = None) -> bool:
     if values is None:
-        values = [counterinput("Veuillez entrer une valeure:") for _ in range(10)]   
+        values = [counter(input("Veuillez entrer une valeure:") for _ in range(10))]   
     
     print(values == sorted(values))
 
