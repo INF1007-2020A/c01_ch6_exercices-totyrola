@@ -21,8 +21,8 @@ def anagrams(words: list = None) -> bool:
 
 def contains_doubles(items: list) -> bool:
     list_sans_repetition = set(items)
-    len(list_sans_repetition) == len(iy)
-    return 
+    len(list_sans_repetition) == len(items)
+     
 
 
 def best_grades(student_grades: dict) -> dict:
