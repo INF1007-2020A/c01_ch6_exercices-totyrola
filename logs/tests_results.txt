@@ -10,13 +10,13 @@ FAIL: test_anagram (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 40, in test_anagram
     'Erreur dans la vérification de l\'anagramme'
-AssertionError: Lists differ: [False, False] != [True, False]
+AssertionError: Lists differ: [None, None] != [True, False]
 
 First differing element 0:
-False
+None
 True
 
-- [False, False]
+- [None, None]
 + [True, False] : Erreur dans la vérification de l'anagramme
 
 ======================================================================
