@@ -1,20 +1,8 @@
 test_anagram (__main__.TestExercice) ... FAIL
-test_doubles (__main__.TestExercice) ... ERROR
+test_doubles (__main__.TestExercice) ... FAIL
 test_grades (__main__.TestExercice) ... FAIL
 test_histogram (__main__.TestExercice) ... FAIL
 test_order (__main__.TestExercice) ... FAIL
-
-======================================================================
-ERROR: test_doubles (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 49, in test_doubles
-    output = [exercice.contains_doubles(v) for v in values]
-  File "test_exercice.py", line 49, in <listcomp>
-    output = [exercice.contains_doubles(v) for v in values]
-  File "/home/runner/work/c01_ch6_exercices-totyrola/c01_ch6_exercices-totyrola/exercice.py", line 23, in contains_doubles
-    lst_set(items)
-NameError: name 'lst_set' is not defined
 
 ======================================================================
 FAIL: test_anagram (__main__.TestExercice)
@@ -30,6 +18,21 @@ False
 
 - [True, True]
 + [True, False] : Erreur dans la vérification de l'anagramme
+
+======================================================================
+FAIL: test_doubles (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 55, in test_doubles
+    'Erreur dans les doublons'
+AssertionError: Lists differ: [None, None] != [False, True]
+
+First differing element 0:
+None
+False
+
+- [None, None]
++ [False, True] : Erreur dans les doublons
 
 ======================================================================
 FAIL: test_grades (__main__.TestExercice)
@@ -65,4 +68,4 @@ None
 ----------------------------------------------------------------------
 Ran 5 tests in 0.001s
 
-FAILED (failures=4, errors=1)
+FAILED (failures=5)
