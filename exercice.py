@@ -12,9 +12,7 @@ def order(values: list = None) -> bool:
 
 def anagrams(words: list = None) -> bool:
     if words is None:
-        
-
-    return False
+       return False
 
 
 def contains_doubles(items: list) -> bool:
