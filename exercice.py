@@ -7,7 +7,7 @@ def order(values: list = None) -> bool:
     if values is None:
         values = [Counter(input("Veuillez entrer une valeure:") for _ in range(10))]   
     
-    return values[0] == sorted(values))
+    return value == sorted(values))
 
 
 
