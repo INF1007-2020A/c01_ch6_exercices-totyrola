@@ -14,7 +14,7 @@ def anagrams(words: list = None) -> bool:
     if words is None:
        words = [input("veuillez entrer deux mots:") for _ in range(2)] 
     
-    return word_dicts[0] == word_dicts[1]
+    return words[0] == word_dicts[1]
 
 
 def contains_doubles(items: list) -> bool:
