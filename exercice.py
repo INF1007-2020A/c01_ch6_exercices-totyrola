@@ -13,7 +13,6 @@ def order(values: list = None) -> bool:
 def anagrams(words: list = None) -> bool:
     if words is None:
        words = [input("veuillez entrer deux mots:") for _ in range(2)] 
-
     return words[0] == words[1]
 
 
