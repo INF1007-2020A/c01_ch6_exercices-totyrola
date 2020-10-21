@@ -5,11 +5,9 @@ from collections import Counter
 
 def order(values: list = None) -> bool:
     if values is None:
-        values = [input("Veuillez entrer une valeure:") for _ in range(10))]   
+        values = [input("Veuillez entrer une valeure:") for _ in range(10)]   
     
     return values == sorted(values))
-
-
 
 def anagrams(words: list = None) -> bool:
     if words is None:
