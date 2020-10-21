@@ -25,13 +25,13 @@ FAIL: test_doubles (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 55, in test_doubles
     'Erreur dans les doublons'
-AssertionError: Lists differ: [None, None] != [False, True]
+AssertionError: Lists differ: [True, False] != [False, True]
 
 First differing element 0:
-None
+True
 False
 
-- [None, None]
+- [True, False]
 + [False, True] : Erreur dans les doublons
 
 ======================================================================
