@@ -16,7 +16,7 @@ def anagrams(words: list = None) -> bool:
 
     word_dicts = [{}, {}]   
     
-    return word
+    return word_dicts[0] == word_dicts}
 
 
 def contains_doubles(items: list) -> bool:
