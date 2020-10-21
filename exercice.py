@@ -5,7 +5,7 @@ from collections import Counter
 
 def order(values: list = None) -> bool:
     if values is None:
-        values = [counter(input("Veuillez entrer une valeure:") for _ in range(10))]   
+        values = [Counter(input("Veuillez entrer une valeure:") for _ in range(10))]   
     
     print(values == sorted(values))
 
