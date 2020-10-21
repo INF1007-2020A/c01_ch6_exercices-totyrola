@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import counter from Col
+import counter from Collections:
 
 
 def order(values: list = None) -> bool:
