@@ -21,7 +21,7 @@ def anagrams(words: list = None) -> bool:
 
 def contains_doubles(items: list) -> bool:
     list_sans_repetition = set(items)
-    list
+    len(list_sans_repetition)
     return 
 
 
